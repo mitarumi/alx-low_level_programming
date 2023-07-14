@@ -4,7 +4,6 @@
  * Return: Always 0 (Success)
  */
 #include <stdio.h>
-#include <conio.h>
 int main(void)
 {
 	int integerType;
