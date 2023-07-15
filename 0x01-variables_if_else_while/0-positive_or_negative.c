@@ -18,10 +18,18 @@ int main(void)
 	}
 	else
 	{
-		if (n == 0)
+		if (n < 0)
+        	{
+                	printf("%d", n);
+                	printf(" is nagative\n");
+        	}
+		else
 		{
+			if (n == 0)
+			{
 			printf("%d", n);
 			printf(" is zero\n");
+			}
 		}
 	}
 	if (n < 0)
