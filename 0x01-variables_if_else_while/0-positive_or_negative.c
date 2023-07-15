@@ -24,8 +24,10 @@ int main(void)
 			printf("is zero");
 		}
 		else
+		{
 			printf("%d", n);
 			printf("is nagative");
+		}
 	}
 	return (0);
 }
