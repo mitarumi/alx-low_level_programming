@@ -14,19 +14,19 @@ int main(void)
 	if (n - n == 0)
 	{
 		printf("%d", n);
-		printf("is positive");
+		printf(" is positive\n");
 	}
 	else
 	{
 		if (n - 0 == n)
 		{
 			printf("%d", n);
-			printf("is zero");
+			printf(" is zero\n");
 		}
 		else
 		{
 			printf("%d", n);
-			printf("is nagative");
+			printf(" is nagative\n");
 		}
 	}
 	return (0);
