@@ -23,11 +23,11 @@ int main(void)
 			printf("%d", n);
 			printf(" is zero\n");
 		}
-		else
-		{
-			printf("%d", n);
-			printf(" is nagative\n");
-		}
+	}
+	if (n < 0)
+	{
+		printf("%d", n);
+		printf(" is nagative\n");
 	}
 	return (0);
 }
