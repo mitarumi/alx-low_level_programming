@@ -4,6 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/* main - function of program */
 int main(void)
 {
 	int n;
@@ -19,9 +20,9 @@ int main(void)
 	else
 	{
 		if (n < 0)
-        	{
-                	printf("%d", n);
-                	printf(" is nagative\n");
+		{
+			printf("%d", n);
+			printf(" is nagative\n");
         	}
 		else
 		{
@@ -31,11 +32,6 @@ int main(void)
 			printf(" is zero\n");
 			}
 		}
-	}
-	if (n < 0)
-	{
-		printf("%d", n);
-		printf(" is nagative\n");
-	}
+	}	
 	return (0);
 }
