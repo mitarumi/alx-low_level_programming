@@ -1,8 +1,8 @@
 /**
  * main - Entry point
- * 
+ *
  * Description: 'the program's description'
- * 
+ *
  * Return: Always 0 (Success)
  */
 
@@ -11,6 +11,7 @@
 int main(void)
 {
 	char alphabet;
+
 	for (alphabet = 'z'; alphabet >= 'a' ; alphabet--)
 	{
 		putchar(alphabet);
@@ -18,6 +19,7 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 
-}	
+}
