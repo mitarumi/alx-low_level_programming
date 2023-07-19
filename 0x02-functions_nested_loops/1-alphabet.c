@@ -6,14 +6,21 @@
  *
  * Return: Always 0.
  */
+
+/**
+ * print_alphabet - check the code
+ *
+ * Return: Void
+ */
+
 void print_alphabet(void)
 {
-        char alphabet;
+	char alphabet;
 
-        for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-        {
-                putchar(alphabet);
-        }
+	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+	{
+		putchar(alphabet);
+	}
 }
 
 int main(void)
