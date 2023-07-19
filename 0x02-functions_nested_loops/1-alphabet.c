@@ -6,21 +6,19 @@
  *
  * Return: Always 0.
  */
-void print_alphabet(void);
+void print_alphabet(void)
+{
+        char alphabet;
+
+        for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+        {
+                putchar(alphabet);
+        }
+}
 
 int main(void)
 {
 	print_alphabet();
 	putchar('\n');
 	return (0);
-}
-
-void print_alphabet(void)
-{
-	char alphabet;
-
-	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-	{
-		putchar(alphabet);
-	}
 }
