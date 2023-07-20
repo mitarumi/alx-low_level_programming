@@ -6,7 +6,6 @@
  *
  * Return: Always 0.
  */
-int add(int, int);
 
 int main(void)
 {
