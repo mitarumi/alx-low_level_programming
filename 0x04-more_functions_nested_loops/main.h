@@ -1,6 +1,10 @@
-#ifndef main
-#define main
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
 
 int mul(int a, int b);
 
-#endif
+void print_numbers(void);
+
+#endif /* MAIN_H */
