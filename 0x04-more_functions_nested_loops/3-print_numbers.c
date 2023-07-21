@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * print_numbers - check the code
  *
