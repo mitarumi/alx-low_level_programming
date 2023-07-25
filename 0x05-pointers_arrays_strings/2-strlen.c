@@ -4,7 +4,7 @@
 /**
  * _strlen - show the length of a string
  *
- * @S: string
+ * @s: string
  *
  * Return: lenth of string
  */
