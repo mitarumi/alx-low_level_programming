@@ -22,6 +22,8 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 			putchar(str[o]);
+		else
+			continue;
 	}
 
 	putchar('\n');
