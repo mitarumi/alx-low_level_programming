@@ -1,10 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * print_rev - print string in reverse
+ * @S: string
+ */
 void print_rev(char *s)
 {
-	char i;
+	while (*s == '\0')
+		putchar(*s--);
 
-	for (i = s[\0]; i--)
-		printf("%c\n", i);
+	putchar('\n');
 }
