@@ -1,8 +1,9 @@
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - main program
- * Return: always 0
+ * Return: Always 0
  */
 int main(void)
 {
