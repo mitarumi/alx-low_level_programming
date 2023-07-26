@@ -5,6 +5,7 @@
  * *_strcpy - copy string pointed to by src
  * @dest: copy from
  * @src: copy to
+ * Return: string
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -15,8 +16,8 @@ char *_strcpy(char *dest, char *src)
 	{
 		l++;
 	}
-	for ( ; x < 1; x++)
+	for ( ; x < l; x++)
 		dest[x] = src[x];
-	dest[1] = '\0';
+	dest[l] = '\0';
 	return (dest);
 }
