@@ -9,12 +9,12 @@
  *       */
 
 /**
- *  * print_alphabet - check the code
+ *  * print_alphabet_x10 - check the code
  *   *
  *    * Return: Void
  *     */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char alphabet;
 	int i = 0;
@@ -28,7 +28,7 @@ void print_alphabet(void)
 
 int main(void)
 {
-	print_alphabet();
+	print_alphabet_x10();
 	putchar('\n');
 	return (0);
 }
